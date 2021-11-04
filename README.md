@@ -35,17 +35,17 @@ You joined the startup FIRESTORM&trade; which aims to develop the next MMO.  You
 
         - *_Be creative with this part!_*
 
-4. Create another Python class representing a character type (like: Mage, Warrior, Thief) which will inherit from the BaseCharacter class.
+4. Create another Python class representing a _Mage_ character which will inherit from the BaseCharacter class.
 
     - In the constructor, instantiate the inherited attributes using the `super()` method or by referencing the parent class and `name` parameter.
 
-    - In addition, increment other primary stats that would fit to the background of the character type (i.e. Mages would probably receive more intellect and stamina at creation than Warriors).
+    - In addition, increment the Mage's intellect and stamina by 2 points to reflect the class's additional primary stats.
 
-    - Lastly, create two new fields/attributes `health` and another of your choice which serves as that character's ability resource (i.e. Mages would use `mana`).
+    - Lastly, create two new fields/attributes `health` and `mana`, the latter of which will be the primary resource of the character.
 
         - In some MMOs, health - and sometimes the ability resource - have a base amount that is modified by a primary stat like stamina.  Reflect this in your code!
 
-5. Finally, create a method inside the new class called `display_stats` which only takes itself as the arguement.
+5. Finally, create a method inside the new class called `display_stats` which only takes itself as the argument.
 
     - This method should _print_ out three statements displaying the character's:
         
@@ -86,7 +86,19 @@ You joined the startup FIRESTORM&trade; which aims to develop the next MMO.  You
    - Run the command `pytest` and your four tests should run.
    
    - If you receive any errors, change the code around to fix it up and try again!
-   
+
+## Bonus: Optional
+
+1. Let's simulate rolling a D20 to determine stats this time!  Add an internal method within the base class which will return a random integer from 1-20 (inclusive).
+
+   - _Note_: Internal methods generally start with an underscore and can be executed in the constructor!
+
+2. Finally, let's determine how much your mage will receive in bonus stats in addition to what is provided with BaseCharacter.  To do this, we will simulate rolling a D10.
+
+   - This will be done the same way as D20
+
+3. When you implement these methods in the BaseCharacter class, take advantage of the `time.sleep(x)` function which will allow your code to wait `x` seconds before executing.
+
 ## Congratulations!
 
 That's all here - good luck on your Sprint Challenge!
