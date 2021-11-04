@@ -102,3 +102,7 @@ You joined the startup FIRESTORM&trade; which aims to develop the next MMO.  You
 ## Congratulations!
 
 That's all here - good luck on your Sprint Challenge!
+
+## Additional Comments...
+
+Thanks to Jeremy Glasser for providing some extra material for the bonus section!
