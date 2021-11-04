@@ -60,26 +60,12 @@ You joined the startup FIRESTORM&trade; which aims to develop the next MMO.  You
 1. First thing is first!  We need to install the `pytest` package.
 
    - While in your environment, run `pip install pytest` to accomplish this.
-
-2. Now, create a directory called `tests` which will reside on the same level as `review.py`.
-
-   - In the `tests` directory, create a file called `conftest.py` which will house our `pytest` fixtures.
    
-   - To read more about `pytest` fixtures, check out [this link](https://docs.pytest.org/en/6.2.x/fixture.html#scope-sharing-fixtures-across-classes-modules-packages-or-session).
-   
-3. In `conftest.py` import both the `pytest` package as well as your `BaseCharacter` and second character class - this can be done with a [relative import](https://realpython.com/absolute-vs-relative-python-imports/)
-
-   - Instantiate a fixture for `BaseCharacter` with the name `'Template'`
-   
-   - Instantiate a second fixture for your other character class using any name you would like!
-   
-   - Now that we have made our pytest fixtures, let's make some tests!
-   
-4. Create a new file called `test_<something>.py` replacing the carats and content with something relevant to what you are testing.
+2. Create a new file called `test_<something>.py` replacing the carats and content with something relevant to what you are testing.
 
    - Create at least **four** different tests total which will test both class attributes and methods you made in your source code.
    
-5. When you are done, test it out!
+3. When you are done, test it out!
 
    - Open a command line terminal and make sure you are at the base level of your repository.
    
